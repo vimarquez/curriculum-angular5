@@ -1,0 +1,34 @@
+.dropdown-item {
+  width: 100%; // For `<button>`s
+  white-space: nowrap; // prevent links from randomly breaking onto new lines
+  border: 0; // For `<button>`s
+  text-decoration:none;
+  font-family: 'Helvetica', cursive;
+  font-size:2em;
+  border-radius: 12px;
+
+}
+.dropdown-menu {
+  top: 0;
+  left: 100%;
+  text-align: left; // Ensures proper alignment if parent has it changed (e.g., modal footer)
+  list-style: none;
+  background-clip: padding-box;
+  border-radius: 12px;
+
+}
+.dropdown-divider {
+    margin: 0;
+    border-top: 2px solid whitesmoke;
+}
+
+.btn {
+ color:white;
+ text-decoration:none;
+ padding:5px 10px;
+ font-family: 'Helvetica', cursive;
+ font-size:2em;
+ border-radius: 12px;
+}
+
+
