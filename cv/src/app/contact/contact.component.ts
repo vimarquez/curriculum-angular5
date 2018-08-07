@@ -36,6 +36,7 @@ export class ContactComponent {
   submitted = false;
  
   onSubmit() {  
+     console.log("RUINAAA");
 	
   }
  
